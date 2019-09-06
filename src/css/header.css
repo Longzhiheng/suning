@@ -619,6 +619,7 @@ main{
     top:0;
     background: #fff;
     display: none;
+    z-index: 900;
 }
 
 .title-1 a{
@@ -639,6 +640,7 @@ main{
     top:32px;
     background: #fff;
     display: none;
+    z-index: 900;
 }
 .cart-1>dl{
     float: left;

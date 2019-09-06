@@ -122,6 +122,24 @@
             });
 
             this.delete.on('click', function () {
+                let hy=parseInt($(this).parent('.cart-right').siblings('.cart-pire').find('.zpirce').html());
+                let  m =$(this).parents('.contain-cart').find(':checked').siblings('.cart-pire').find('.zpirce');
+                 let mp=0;
+
+                 m.each(function(index,eleme){
+                    console.log(mp);
+                     mp+=parseInt($(eleme).html())
+                 });
+                 console.log(mp);
+                 let mj=$(this).parents('.cart-buttom').siblings('.cart-pire').find('.zpirce').html();
+             
+                 console.log(mj);
+                 if($(this).parents('.cart-buttom').siblings('.bit').prop('checked')){
+                  _this.allpirce.html(mp-mj);
+              }
+              else{
+                  _this.allpirce.html(mp)
+            }
                 console.log(_this.arrysid);
                 console.log(_this.arrynum);
                 let sid = $(this).attr('sid');
@@ -132,6 +150,7 @@
                 console.log(_this.arrynum);
                 addcookie('cookiesid', _this.arrysid.toString(), 10); //数组存入cookie
                 addcookie('cookienum', _this.arrynum.toString(), 10); //数组存入cookie
+                  
             })
 
         }
