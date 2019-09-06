@@ -1,0 +1,63 @@
+.item-main{
+    width: 100%;
+    margin-top: 60px;
+}
+.like{
+    width: 100%;
+    height:100%
+}
+.like li{
+    position: relative;
+    float: left;
+    width: 20%;
+    height: 340px;
+    box-sizing: border-box;
+}
+.like a{
+    display: block;
+    width: 100%;
+    height:100%;
+}
+.like div{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.like img{
+    width: 100%;
+    height: 100%;
+}
+.like p:nth-child(2){
+    width: 100%;
+    height: 40px;
+    line-height: 24px;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+}
+.like p:nth-child(3){
+    line-height: 30px;
+    padding-left:10px;
+    font-size: 16px;
+    color: #f60;
+    padding-top:6px;
+}
+.like em{
+    position: absolute;
+    width: 44px;
+    height:22px;
+    border-radius: 3px;
+    color: #f60;
+    border-color: #f60;
+    left: 100px;
+    bottom:50px;
+    font-size: 14px;
+}
+.like img:hover{
+    transition: all 1s;
+    transform: scale(1.1);
+}
+.like p:hover{
+color: #f60;
+}
+

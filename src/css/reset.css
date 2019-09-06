@@ -1,0 +1,25 @@
+body,html,p,div,img,ul,li,em,i,a,h1,h2,h3,h4,h5,h6,input,area,table,tr,td,th,dl,dt,dd{
+    margin: 0;
+    padding:0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    display: block;
+    border: 0;
+}
+i,em,b{
+    font-weight: normal;
+    font-style: normal;
+}
+html,body{
+    font: 12px/1.5,"微软雅黑";
+}
+.contain{
+    width: 1190px;
+    margin: 0 auto;
+}

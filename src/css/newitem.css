@@ -1,0 +1,177 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrap {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#spic {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+    float: left;
+    position: relative;
+}
+
+#spic img {
+    width: 400px;
+    height: 400px;
+}
+
+#sf {
+    width: 50px;
+    height: 50px;
+    background: orange;
+    opacity: 0.3;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    visibility: hidden;
+    cursor: move;
+}
+
+#bf {
+    width: 400px;
+    height: 500px;
+    border: 1px solid #000;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    left: 10px;
+    visibility: hidden;
+    background: #fff;
+}
+
+#bf img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+#ulist {
+    position: absolute;
+    left: 0px;
+    bottom: 15px;
+    width: 402px;
+    height: 56px;
+    overflow: hidden;
+}
+
+#ulist a {
+    float: left;
+    width: 10px;
+    height: 54px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    line-height: 56px;
+    text-align: center;
+    background: #fff;
+}
+
+#list {
+    float: left;
+    margin-left: 18px;
+    width: 372px;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+ul li {
+    float: left;
+    width: 56px;
+    height: 56px;
+    padding-right: 6px;
+    cursor: pointer;
+}
+
+ul li img {
+    width: 52px;
+    height: 52px;
+    border: 1px solid #ccc;
+}
+.box{
+    position: absolute;
+    background: red;
+    height: 10px;
+}
+#bpic{
+    width: 800px;
+    height:800px
+}
+.pire{
+    width: 570px;
+    height:400px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+.title{
+  color: #000;
+}
+ .pire h2{
+     color: #f60;
+     font-size: 16px;
+ }
+ .hi{
+     width: 570px;
+     height:300px;
+     background: #eee;
+ }
+ .hi p{
+     width: 100%;
+     height:61px;
+ }
+ .hi ul{
+     position: relative!important;
+ }
+ h1{
+     font-size: 20px;
+ }
+.computer{
+    width: 400px;
+    height: 60px;
+}
+.loss{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #666;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+.add{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #666;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;  
+    cursor: pointer;
+}
+input{
+    width: 40px;
+    height: 40px;
+ 
+}
+.buy{
+    display: block;
+    width: 80px;
+    height: 30px;
+    background: #666;
+}
