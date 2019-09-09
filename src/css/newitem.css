@@ -133,6 +133,21 @@ ul li img {
  .hi p{
      width: 100%;
      height:61px;
+     box-sizing: border-box;
+     padding-left: 10px;
+     padding-top:20px;
+     font-size: 16px;
+ }
+ .hi p:nth-child(1){
+     padding-left: 10px;
+     padding-top:20px;
+     font-size: 16px;
+ }
+ .hi p:nth-child(1) i{
+     color: #f60;
+     font-weight: bold;
+     font-size: 20px;
+     padding:0 6px;
  }
  .hi ul{
      position: relative!important;
@@ -143,6 +158,9 @@ ul li img {
 .computer{
     width: 400px;
     height: 60px;
+    box-sizing: border-box;
+    padding-left: 40px;
+    padding-top: 10px;
 }
 .loss{
     display: inline-block;
@@ -153,6 +171,8 @@ ul li img {
     text-align: center;
     font-size: 20px;
     cursor: pointer;
+    border-bottom: 3px solid #666;
+
 }
 .add{
     display: inline-block;
@@ -163,15 +183,42 @@ ul li img {
     text-align: center;
     font-size: 20px;  
     cursor: pointer;
+    border-bottom: 3px solid #666;
 }
 input{
     width: 40px;
     height: 40px;
- 
+    border: 0;
+    line-height: 40px;
+    text-align: center;
+    outline: 0;
+    
 }
 .buy{
     display: block;
     width: 80px;
     height: 30px;
-    background: #666;
+    background: #f60;
+    margin: 23px 57px;
+    padding:11px;
+    color: #fff;
+}
+.hi ul li{
+    width: 88px;
+}
+.hi ul{
+    box-sizing: border-box;
+    padding-left: 40px;
+}
+.hi ul li {
+    box-sizing: border-box;
+    padding: 5px 10px; 
+    font-size: 16px;
+}
+.hi ul li:hover{
+    color: #f60;
+}
+.lili{
+    border: 1px solid #eee;
+    float: left;
 }

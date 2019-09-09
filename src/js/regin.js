@@ -165,7 +165,11 @@
             this.sub.on('click', function () {
                 console.log(_this.flog2);
                 console.log(_this.flog1);
-                if (_this.flog1 && _this.flog2) {
+                if(_this.passvalue.val()==''||_this.phonevalue.val()==''){
+                    alert('账号或密码不能为空');
+                }
+               else if (_this.flog1 && _this.flog2) {
+                   alert('注册成功，正在跳转登录页面');
                     $.ajax({
                         type: 'get',
                         url: 'http://10.31.157.53/html1907/suning/php/regin.php/',

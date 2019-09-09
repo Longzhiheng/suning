@@ -173,6 +173,7 @@
             this.buy=$('.buy');
             this.arrysid=[];
             this.arrynum=[];
+            this.how=$('.num');
        }
        init(){
            let _this=this;
@@ -184,6 +185,14 @@
          });
           this.buy.on('click',function(){
              _this.addcook($(this)); 
+          });
+          this.how.blur(function(){
+             let reg=new RegExp(/\D/,'g');
+              if(reg.test($(this).val())){
+                 alert("请输入有效的商品数量");
+                 $(this).val(0);
+
+              }
           })
        }
        cmloss(){

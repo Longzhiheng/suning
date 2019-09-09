@@ -11,6 +11,9 @@ header{
 .leftnav{
     float: left;
 }
+.leftnav span{
+    cursor: pointer!important;
+}
 .leftnav>ul>li{
     float: left;
     height: 35px;
